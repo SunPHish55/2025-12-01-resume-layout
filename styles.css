@@ -69,23 +69,28 @@ h2 img{
 }
 
 h3{
-    font-size: 25px;
+    font-size: 20px;
     color: rgb(85, 85, 85);
+    margin-top: 10px;
     display: flex;
     align-items: center;
 }
 
 h4{
-    font-size: 20px;
+    font-size: 18px;
     color: rgb(85, 85, 85);
+    margin-top: 5px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 p{
     margin: 2px;
     font-size: 13px;
     color: rgb(85, 85, 85);
+    letter-spacing: 1.6px;
+    line-height: 1.2;
     display: flex;
     align-items: center;
 }
@@ -193,5 +198,75 @@ p{
 .right{
     flex: 2;
     background-color: rgb(255, 255, 255);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
 
+.right li{
+    position: relative;
+    padding-left: 30px;
+}
+
+.right li:nth-child(1)::before{
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    width: 10px;
+    height: 10px;
+    background-color:  rgb(16, 158, 197);
+    border-radius: 50%;
+}
+
+.right li:nth-child(1)::after{
+    content: "";
+    position: absolute;
+    left: 9.5px;
+    top: 10px;
+    width: 1px;
+    height: 10px;
+    background-color:  rgb(16, 158, 197);
+}
+
+.right li:nth-child(2)::before{
+    content: "";
+    position: absolute;
+    left: 9.5px;
+    top: -5px;
+    width: 1px;
+    height: 23px;
+    background-color:  rgb(16, 158, 197);
+}
+
+.right li:nth-child(3)::before{
+    content: "";
+    position: absolute;
+    left: 9.5px;
+    top: -2px;
+    width: 1px;
+    height: calc(100% + 2px);
+    background-color:  rgb(16, 158, 197);
+}
+
+.education{
+    margin-top: 60px;
+    width: 380px;
+}
+
+.experience{
+    margin-top: 60px;
+    width: 380px;
+}
+
+.experience p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.experience li:nth-child(3)::before{
+    top: -22px;
+    height: calc(100% + 48px);
 }
