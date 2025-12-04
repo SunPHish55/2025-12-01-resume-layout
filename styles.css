@@ -252,12 +252,12 @@ p{
 }
 
 .education{
-    margin-top: 60px;
+    margin-top: 40px;
     width: 380px;
 }
 
 .experience{
-    margin-top: 60px;
+    margin-top: 40px;
     width: 380px;
 }
 
@@ -269,4 +269,26 @@ p{
 .experience li:nth-child(3)::before{
     top: -22px;
     height: calc(100% + 48px);
+}
+
+.portfolio{
+    margin-top: 40px;
+    width: 380px;
+}
+
+.portfolio li:nth-child(1)::after{
+    content: none;
+}
+
+.portfolio ul{
+    margin-top: 20px;
+}
+
+.portfolio a{
+    color:  rgb(16, 158, 197);
+    text-decoration: none;
+}
+
+.portfolio a:hover{
+    color: blueviolet;
 }

@@ -6,3 +6,4 @@
 <a href="https://www.flaticon.com/free-icons/jigsaw" title="jigsaw icons">Jigsaw icons created by Creative Stall Premium - Flaticon</a>
 <a href="https://www.flaticon.com/free-icons/student" title="student icons">Student icons created by Mayor Icons - Flaticon</a>
 <a href="https://www.flaticon.com/free-icons/briefcase" title="briefcase icons">Briefcase icons created by Those Icons - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/laptop" title="laptop icons">Laptop icons created by Freepik - Flaticon</a>
